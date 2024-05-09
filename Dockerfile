@@ -18,7 +18,7 @@ RUN set -ex; \
     -X main.Tag=${CI_COMMIT_TAG}"
 
 FROM alpine:3.19
-LABEL maintainer="codestation <codestation@megpoid.dev>"
+LABEL maintainer="Damian Kaczmarek <rushpl@gmail.com>"
 
 RUN apk add --no-cache ca-certificates tzdata
 
